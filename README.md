@@ -10,6 +10,7 @@
 ## Use instructions
 
 #### 1. Preliminary configurations
+---
 Make sure you have Python latest version (check in your command prompt)
 ```bash
 python 
@@ -29,6 +30,7 @@ git version 2.35.1.windows.2
 ```
 
 #### 2. To download the code to your machine
+---
 Select the route where you want the repository to be downloaded
 ```bash
 cd <Route to your especified file>
@@ -43,12 +45,14 @@ cd <Final_compi_PMQ>
 ```
 
 #### 3. To run the program
+---
 As the programm doesn't require any external libraries you can run the program with  the following command in your command prompt
 ```bash
 py final-proyect-PMQ.py
 ```
 
 #### 4. To use the program
+---
 When in the program it will wait for the imput form the user
 You can test the program by using the following inputs:
 ```
