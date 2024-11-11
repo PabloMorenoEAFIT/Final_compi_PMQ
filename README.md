@@ -37,7 +37,7 @@ cd <Route to your especified file>
 ```
 Then download the repository
 ```bash
-git clone https://github.com/PabloMorenoEAFIT/Final_compi_PMQ/blob/main/README.md
+git clone https://github.com/PabloMorenoEAFIT/Final_compi_PMQ
 ```
 Acces the route where the file was downloaded
 ```bash
