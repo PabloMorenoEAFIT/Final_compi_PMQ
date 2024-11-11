@@ -19,6 +19,8 @@ This command should return something like this:
 Python 3.10.6 (<tags>, <installation date>) [MSC v.1932 64 bit (AMD64)] on win32
 Type "help", "copyright", "credits" or "license" for more information.
 ```
+(Also make sure you have python included in your system PATH)
+
 Make sure you have git installed
 ```bash
 git --version
