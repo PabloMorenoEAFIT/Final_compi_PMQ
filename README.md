@@ -45,7 +45,7 @@ cd <Final_compi_PMQ>
 #### 3. To run the program
 As the programm doesn't require any external libraries you can run the program with  the following command in your command prompt
 ```bash
-py final-proyect-PMQ.py
+py final-project-PMQ.py
 ```
 ---
 #### 4. To use the program
