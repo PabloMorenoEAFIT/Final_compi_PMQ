@@ -66,7 +66,7 @@ Follow(A) = { $ , a }
 Follow(S) = { $ }
 ```
 
----
+
 ## Program Functionality
 This Python program is designed to compute the First and Follow sets of all nonterminal symbols for a given context-free grammar (CFG). These sets are crucial for constructing parsers in compiler design, particularly for LL(1) parsers.
 
