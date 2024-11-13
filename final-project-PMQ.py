@@ -55,27 +55,19 @@ def parse_input():
             nonterminal = rule[0]
             productions = rule[1:]
             grammar[nonterminal] = productions
-        
+            if '$' in productions or 'e' in productions:
+                exit()
+
         start_symbol_in_first_derivation = False
-        for nonterminal, productions in grammar.items():
-            if 'S' in nonterminal[0]:
-                start_symbol_in_first_derivation = True
-                break
-        
+        nonterminal, productions = next(iter(grammar.items()))
+        if 'S' == nonterminal:
+            start_symbol_in_first_derivation = True
+                
         if not start_symbol_in_first_derivation:
-            print("ERROR: non-terminal 'S' is not the initial symbol.")
-            exit()
-
-        if '$' in grammar:
-            print("ERROR: terminal '$' in the grammar not accepted.")
-            exit()
-
-        if 'e' in grammar:
-            print("ERROR: terminal 'e' in the grammar not accepted.")
             exit()
         
         cases.append((grammar, m))
-    
+
     return cases
 
 
@@ -102,7 +94,6 @@ def main():
         
         print_sets(first_sets, follow_sets)
         print()
-
 
 if __name__ == "__main__":
     main()
